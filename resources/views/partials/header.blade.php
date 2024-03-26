@@ -10,6 +10,7 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a @class(['nav-link', 'active' => Route::currentRouteName() == 'home']) aria-current="page" href="{{ route('home') }}">Home</a>
+            <a @class(['nav-link', 'active' => Route::currentRouteName() == 'comics.index']) aria-current="page" href="{{ route('comics.index') }}">Comics</a>
           </li>
       </div>
     </div>
