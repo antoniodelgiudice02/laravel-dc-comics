@@ -33,6 +33,7 @@
           <td>{{$comic->cover_by}}</td>
           <td>{{$comic->rating}}</td>
           <td>{{$comic->pages}}</td>
+          <td><a href="{{ route('comics.show', $comic)}}">gay</a></td>
         </tr>
         @empty
         <tr>
