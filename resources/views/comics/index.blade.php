@@ -8,6 +8,9 @@
       <h1>Comics</h1>
     </div>
     <div class="container">
+    <div>
+      <a href="{{ route('comics.create')}}">add comic</a>
+    </div>
       <table class="table">
       <thead>
         <tr>
