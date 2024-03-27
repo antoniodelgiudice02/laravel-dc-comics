@@ -36,7 +36,10 @@
           <td>{{$comic->cover_by}}</td>
           <td>{{$comic->rating}}</td>
           <td>{{$comic->pages}}</td>
-          <td><a href="{{ route('comics.show', $comic)}}">vedi altro</a></td>
+          <td>
+            <a href="{{ route('comics.show', $comic)}}">apri</a>
+            <a href="{{ route('comics.edit', $comic)}}">modifica</a>
+          </td>
         </tr>
         @empty
         <tr>
